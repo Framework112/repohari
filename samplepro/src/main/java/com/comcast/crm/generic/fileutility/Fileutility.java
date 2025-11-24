@@ -13,6 +13,13 @@ public class Fileutility {
 	 
 	  String data = pobj.getProperty(key);
 	  return data;
-	  
+
+
+	   FileInputStream  fis =new FileInputStream("./comproperties/ddtss.properties");
+	  Properties pobj=new Properties();
+	  pobj.load(fis);
+	 
+	  String data = pobj.getProperty(key);
+	  return data;
   }
 }
