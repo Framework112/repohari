@@ -7,6 +7,7 @@ public class Simpless {
 	public void simples()
 	{
 		System.out.println("executed");
+		System.out.println("done");
 		
 	}
 	
