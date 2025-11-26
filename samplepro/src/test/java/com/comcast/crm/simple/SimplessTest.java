@@ -2,7 +2,7 @@ package com.comcast.crm.simple;
 
 import org.testng.annotations.Test;
 
-public class Simpless {
+public class SimplessTest {
 	@Test
 	public void simples()
 	{
