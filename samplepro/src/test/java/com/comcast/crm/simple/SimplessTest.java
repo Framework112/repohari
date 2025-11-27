@@ -6,9 +6,15 @@ public class SimplessTest {
 	@Test
 	public void simples()
 	{
-		System.out.println("executed");
-		System.out.println("done");
-		System.out.println("all opn done");
+		String url= System.getProperty("url");
+		String Browser= System.getProperty("browser");
+		String username= System.getProperty("username");
+		String passward= System.getProperty("passward");
+		
+		System.out.println(url);
+		System.out.println(Browser);
+		System.out.println(username);
+		System.out.println(passward);
 		
 		
 	}
